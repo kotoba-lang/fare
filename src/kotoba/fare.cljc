@@ -94,7 +94,7 @@
     applicable. It never accepts one that is not.
   - **Ticketing, filing, settlement.** Nothing here files a fare with an
     authority, issues a document, or moves money."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def bp-scale
   "Basis-point scale: 10000 bp = 100%."
