@@ -185,8 +185,8 @@ that cannot be issued:
 ## Tests
 
 ```
-clojure -M:test    # 26 tests, 165 assertions
-clojure -M:lint
+kbb -M:test    # 26 tests, 165 assertions
+kbb -M:lint
 ```
 
 ## License
